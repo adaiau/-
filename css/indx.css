@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: pink;
+    color: whitesmoke;
+    text-align: center;
+    /* 行盒居中 在块盒中居中*/
+}
+
+audio {
+    width: 450px;
+    margin: 30px 0;
+}
+
+.container {
+    height: 420px;
+    overflow: hidden;
+    /* border: 2px solid #000; */
+}
+
+.container ul {
+    /* border: 1px solid #fff; */
+    /* transform: translateY(-200px); */
+    transition: 0.6s;
+    /* 针对数值类的属性有效 */
+    list-style: none;
+}
+
+.container li {
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid #fff; */
+    transition: 0.3s;
+    /* 注意书写位置  过渡 */
+}
+
+.container li.active{
+    color: greenyellow;
+    transform: scale(1.4);
+    
+}
